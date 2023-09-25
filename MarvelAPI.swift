@@ -13,8 +13,10 @@ import Alamofire
 class MarvelAPI{
     
     static private let basePath = "https://gateway.marvel.com/v1/public/characters?"
+    #warning
     // colocar sua chave privada aqui
     static private let privateKey = ""
+    #warning
     // colocar sua chave publica aqui
     static private let publicKey = ""
     static private let limit = 50
